@@ -21,3 +21,14 @@ int factorial(int n){
         return 1;
     }
 }
+
+// Working of Recursion
+// void recurse()
+// {
+//     recurse();
+// }
+
+// int main()
+// {
+//     recurse()
+// }

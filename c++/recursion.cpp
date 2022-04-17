@@ -6,7 +6,7 @@ int factorial(int);
 int main() {
     int n, result;
 
-    cout << "Enter a non-negative number: "
+    cout << "Enter any number: "
     cin >> n;
 
     result = factorial(n);

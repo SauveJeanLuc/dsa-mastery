@@ -8,4 +8,5 @@ int main(){
     short e = 34342;
     unsigned int a = -5;
 
+    long int sum = b+c;
 }

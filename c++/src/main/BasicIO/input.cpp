@@ -11,4 +11,9 @@ int main() {
         cout << " You are competent " << endl;
     }
 
+    /*
+        Entering a multiple inputs
+        cin >> a >> b >> c
+    */
+
 }

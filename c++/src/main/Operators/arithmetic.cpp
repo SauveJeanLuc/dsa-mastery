@@ -1,4 +1,6 @@
 #include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main() {
@@ -15,5 +17,5 @@ int main() {
 
     cout << "Division: " << (a/b) << endl;
 
-    cout << "Modulo: " << (a%b) << endl;
+    cout << "Modulo: " << std::fmod(a,b) << endl;
 }

@@ -10,7 +10,7 @@ int main() {
     int heartBeatInt = (int)heartBeat;
     cout << "Heart Beat Integer Value: " << heartBeatInt << endl;
 
-    //Function-Style Conversion
+    //Function-Style Type Conversion
     int heartBeatReal = int(heartBeat);
     cout << "Heart Beat Integer Value: " << heartBeatReal << endl;
 

@@ -7,7 +7,7 @@
     //Bitwise AND Operation of 12 and 25
 
         00001100
-    &    00011001
+    &   00011001
         _________
         00001000  = 8 (In decimal)
 

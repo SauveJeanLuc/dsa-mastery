@@ -16,6 +16,12 @@ int main () {
 
     // Ommitting Bracelets in the program
 
-    if ()
+    if ( positiveNumber > 0 ) 
+        cout << " The number is found to Positive  " << endl;
+    else
+        cout << " The number is found to Negative  " << endl;
+    
+
+
 
 }

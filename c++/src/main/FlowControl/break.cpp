@@ -18,6 +18,10 @@ int main() {
             break;
         }
 
+        if(number == 2){
+            continue;
+        }
+
         result + = number;
 
     }

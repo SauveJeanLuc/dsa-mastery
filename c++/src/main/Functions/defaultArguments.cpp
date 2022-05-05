@@ -3,7 +3,7 @@ using namespace std;
 
 // Program that receives name of Movie, Age of Viewer and Restriction
 
-bool deservesToWatch(string movieName, int viewerAge, int ageRestriction = 18);
+bool deservesToWatch(string movieName = "Anaconda", int viewerAge = 23, int ageRestriction = 18);
 
 int main() {
 

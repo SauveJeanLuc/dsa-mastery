@@ -19,6 +19,6 @@ bool deservesToWatch(string movieName, int viewerAge, int ageRestriction){
     }
 
     cout << "Welcome to the Cinema :) ..." << endl;
-    cout << "Deserve Studio Present To You: ....." <<": "<< movieName << endl;
+    cout << "Deserve Studio Presents To You: ....." <<": "<< movieName << endl;
     return true;
 }

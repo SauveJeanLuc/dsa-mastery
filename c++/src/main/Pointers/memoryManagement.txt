@@ -1,0 +1,9 @@
+Using the 'new' and 'delete' keyword.
+
+int *pointVar;
+
+pointVar = new int;
+delete pointVar;
+
+pointVar = new int[6];
+delete[] ptr;

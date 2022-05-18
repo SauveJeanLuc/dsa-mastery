@@ -1,0 +1,82 @@
+Types of Inheritance That Exists are:
+
+Multiple Inheritance - Multilevel Inheritance - Hierarchical Inheritance
+
+======================================================
+                MULTI-LEVEL INHERITANCE
+======================================================
+
+Deriving a class that was also derived from another
+
+class One {
+
+};
+
+class Two: public One {
+
+};
+
+class Three: public Twp {
+
+};
+
+
+======================================================
+                MULTIPLE INHERITANCE
+======================================================
+
+Inheriting / Deriving from multiple classes
+
+class Mother {
+
+    public:
+
+        void speak(){
+
+        }
+
+};
+
+class Father {
+    
+    public:
+
+        void speak(){
+
+        }
+};
+
+class Son : public Mother , public Father {
+
+};
+
+
+int main() {
+
+    Son matthew;
+    matthew.Mother::speak();
+    matthew.Father::speak();
+
+}
+
+======================================================
+                HIERARCHICAL INHERITANCE
+======================================================
+
+More than one class are Inherited from base class
+
+class Parent{
+
+};
+
+class ChildOne: public Parent {
+
+};
+
+class ChildTwo: public Parent {
+
+};
+
+class ChildThree: public Parent {
+
+};

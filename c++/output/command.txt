@@ -1,6 +1,5 @@
-g++ -o ../../../output/name name.cpp
-./../../../output/name
+g++ -o ../../../output/
+./../../../output/
 
-
-g++ -o ../../output/name name.cpp
-./../../output/name
+g++ -o ../../output/
+./../../output/
